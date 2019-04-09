@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+* {
+  margin:0;
+  padding:0;
+  }
+
+html {
+  background-color: #c7b299;
+  font-family: 'Roboto Slab', serif;
+  height: 100vh;
+}
+
+.header{
+    background-color: #553019;
+    color:white;
+    font-size: 16px;
+    position:fixed;
+    top: 0; left: 0; right: 0;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > span {
+  float: right;
+}
+
+.footer{
+    background-color: #aa7b51;
+    color: white;
+    bottom: 0; left: 0; right: 0;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    background-color: white;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 1200px
+}
+
+#logo {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 10px; 
+}
+
+#menu, #copyR {
+  padding: 25px;
+}
+#menu > span {
+  font-size: 24px;
+  margin-right: 50px;
+}
+#menu > span:hover {
+  color: #553019;
+  cursor: pointer;
+  font-weight: 700;
+
+}
+
+#copyR > span{
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+#center-div {
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+
+.header > #center-div > div {
+  float: left;
+  font-weight: 700;
+  padding-left: 40px;
+}
+.header > #center-div > span {
+  float: right;
+  font-weight: 400;
+  padding-right: 40px;
+  display: flex;
+    align-items: center;
+}  
+
+.nav {
+  background-color: #aa7b51;
+  font-size: 24px;
+  height: 60px;
+  width: 100%;
+}
+
+#nav {
+  background-color: #aa7b51;
+  font-size: 24px;
+  height: 60px;
+	padding: 0; margin: 0;
+	text-align: center; 
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+}
+
+#nav a:hover {
+  background-color: #553019;
+}
+
+
+.article {
+  margin-top: 40px;
+}
+
+.article > table{
+    margin-left: 0;
+    border-collapse: separate;
+    border-spacing: 40px;
+}
+.article > tr {
+  border-bottom: #111 solid 1px;
+  
+}
+
+figcaption {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#title {
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: normal;
+} 
+
+#firstText {
+  font-size: 55px;
+  color: black;
+  font-weight: 700;
+}
+
+#secondText {
+  font-size: 67px;
+  color: #aa7b51;
+  font-weight: 700;
+}
+
+#discover {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  white-space:pre-line;
+}
+
+#btn {
+  background-color: #aa7b51;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 6px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+font-family: "Roboto Slab";
+}
